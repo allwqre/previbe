@@ -4,8 +4,8 @@
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:clean": "lerna clean",
-    "prettier:check": "prettier -cu packages/**/src/**/*",
-    "prettier:format": "prettier -wu packages/**/src/**/*"
+    "prettier:check": "prettier -cu 'packages/**/src/**/*'",
+    "prettier:format": "prettier -wu 'packages/**/src/**/*'"
   },
   "devDependencies": {
     "husky": "^8.0.1",
