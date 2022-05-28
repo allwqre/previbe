@@ -3,9 +3,13 @@
   "private": true,
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap",
-    "lerna:clean": "lerna clean"
+    "lerna:clean": "lerna clean",
+    "prettier:check": "prettier -cu packages/**/src/**/*",
+    "prettier:format": "prettier -wu packages/**/src/**/*"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "husky": "^8.0.1",
+    "lerna": "^4.0.0",
+    "prettier": "^2.6.2"
   }
 }
